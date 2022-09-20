@@ -100,6 +100,7 @@ img {
 }
 #about-me {
   height: 100vh;
+  background-color: cadetblue;
 }
 .diode {
   animation: beam 0.01s infinite;
@@ -134,6 +135,9 @@ img {
 
 #footer-div {
   height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #about-h2 {
@@ -199,6 +203,14 @@ img {
 
 .card-img-top {
   height: 50%;
+}
+div.card.terminal{
+  background-color: transparent;
+  border: none;
+}
+div.card-body.cardy{
+  border-bottom-left-radius: var(--bs-card-inner-border-radius);
+  border-bottom-right-radius: var(--bs-card-inner-border-radius);
 }
 
 div.card {

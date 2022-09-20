@@ -1,21 +1,21 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect} from "react";
 import "./Nav.css";
 
 const Nav = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
 
   useEffect(() => {
-    document.addEventListener("click", handleClickOutside, true);
-  });
+    document.addEventListener("click", ()=>{
+      setIsNavExpanded(false)
+    });
+  }, []);
 
-  const refOne = useRef(null);
-
-  const handleClickOutside = (e) => {
-    if (!refOne.current.contains(e.target)) {
-      setIsNavExpanded(false);
-      console.log(refOne);
-    }
+  const handleClick = (e) => {
+    setIsNavExpanded(!isNavExpanded);
+    // This line is needed. It prevents the event bubbling up and calling the document
+    e.stopPropagation();
   };
+
   return (
     <ul className="nav" id="navvy">
       <div className="divvy divvy1">
@@ -30,12 +30,7 @@ const Nav = () => {
         </li>
       </div>
 
-      <button
-        className="hamburger"
-        onClick={() => {
-          setIsNavExpanded(!isNavExpanded);
-        }}
-      >
+      <button className="hamburger" onClick={handleClick}>
         <i className="bi bi-list"></i>
       </button>
 
@@ -43,7 +38,7 @@ const Nav = () => {
         className={
           isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
         }
-        ref={refOne}
+
       >
         <div className="divvy divvy2">
           <li className="nav-item">
