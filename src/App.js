@@ -27,9 +27,9 @@ const App = () => {
         </section>
         <section className="projects" id="projects">
           <div className="container-fluid projects-container">
-            <h2>Projects</h2>
+            <h2 className="display-5">Projects</h2>
             <div className="container-fluid" id="cards-div">
-              <div className="card terminal">
+              <div className="card terminal" id="project-1">
                 <a href="/cyber-dyne">
                   <img
                     src="https://live.staticflickr.com/65535/52174848461_e6d925ae6d_b.jpg"
@@ -48,7 +48,7 @@ const App = () => {
                   </a>
                 </div>
               </div>
-              <div className="card terminal">
+              <div className="card terminal" id="project-2">
                 <a href="/pokemon-app">
                   <img
                     src="https://live.staticflickr.com/65535/52175338960_0c9c21326f_b.jpg"
@@ -68,7 +68,7 @@ const App = () => {
                   </a>
                 </div>
               </div>
-              <div className="card terminal">
+              <div className="card terminal" id="project-3">
                 <a href="/weather-app">
                   <img
                     src="https://images.unsplash.com/photo-1610337673044-720471f83677?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1672&q=80"
@@ -91,7 +91,7 @@ const App = () => {
         </section>
         <section id="about-me">
         <div className="container-fluid" id="about-container">
-          <h2 id="about-h2">About Me</h2>
+          <h2 className="display-5" id="about-h2">About Me</h2>
      
             <p>
               David Lee Roth is a God, Blade Runner is the greatest movie of all

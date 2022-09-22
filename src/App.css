@@ -270,6 +270,15 @@ footer {
 .projects-container {
   height: 100%;
 }
+#project-1{
+  box-shadow: 0 0 7px skyblue, 0 0 11px cyan;
+}
+#project-2{
+  box-shadow: 0 0 7px pink, 0 0 11px deeppink;;
+}
+#project-3{
+  box-shadow: 0 0 7px lightgreen, 0 0 11px mediumspringgreen;
+}
 
 .card > a {
   height: 50%;
