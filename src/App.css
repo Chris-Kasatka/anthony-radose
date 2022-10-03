@@ -115,6 +115,7 @@ img {
   padding-top: 84px;
   margin-bottom: 84px;
 }
+
 .projects {
   background-color: steelblue;
 }
@@ -237,6 +238,28 @@ main {
   flex-direction: column;
   align-items: center;
 }
+
+/* .card.terminal:hover {
+  animation-name: bounce;
+  animation-duration: 0.3s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+} */
+.card.terminal:hover{
+  transform: translateY(-3px);
+}
+
 footer {
   /* height: 30%; */
   background-color: #373c49;
@@ -301,6 +324,11 @@ footer {
     margin-top: 64px;
   }
 }
+@media (max-width: 576px){
+  .card.terminal{
+    max-width: 300px;
+  }
+}
 @media (min-width: 576px) {
   div.card {
     width: 50%;
@@ -339,6 +367,10 @@ footer {
 @media (min-width: 1200px) {
   div > .terminal {
     width: 30%;
+  }
+  .projects-container > h2 {
+    padding-top: 128px;
+
   }
 }
 @media (min-width: 1400px) {
