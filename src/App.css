@@ -113,7 +113,8 @@ img {
 .projects-container > h2 {
   /* padding-top: 128px; */
   padding-top: 84px;
-  margin-bottom: 84px;
+  padding-bottom: 84px;
+  margin: 0;
 }
 
 .projects {
@@ -233,7 +234,7 @@ main {
 #cards-div {
   display: flex;
   font-family: "VT323", monospace;
-  margin-top: 32px;
+  /* margin-top: 32px; */
   height: 70%;
   flex-direction: column;
   align-items: center;
@@ -294,13 +295,19 @@ footer {
   height: 100%;
 }
 #project-1{
-  box-shadow: 0 0 7px skyblue, 0 0 11px cyan;
+  box-shadow: 0 0 13px cyan;
+  border: 3px solid cyan;
 }
 #project-2{
-  box-shadow: 0 0 7px pink, 0 0 11px deeppink;;
+  box-shadow: 0 0 13px 4px #FF69B4;
+  border: 3px solid #FF69B4;
 }
 #project-3{
-  box-shadow: 0 0 7px lightgreen, 0 0 11px mediumspringgreen;
+  box-shadow: 0 0 13px mediumspringgreen;
+  border: 3px solid mediumspringgreen;
+}
+a.col-xl-6 {
+  padding: 0;
 }
 
 .card > a {
@@ -319,9 +326,9 @@ footer {
 }
 
 
-@media (max-width: 150px) {
+@media (max-width: 163px) {
   #about-container {
-    margin-top: 64px;
+    padding-top: 64px;
   }
 }
 @media (max-width: 576px){
@@ -352,7 +359,13 @@ footer {
   .projects {
     height: 100vh;
   }
+  .projects-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
   .projects-container > h2 {
+    padding: 0;
     margin-bottom: 0;
   }
 }
@@ -365,13 +378,59 @@ footer {
   }
 }
 @media (min-width: 1200px) {
+  #projects{
+    height: fit-content;
+  }
   div > .terminal {
     width: 30%;
   }
+  div.card{
+    margin-bottom: 48px;
+  }
   .projects-container > h2 {
     padding-top: 128px;
-
+    padding-bottom: 128px;
+    font-size: 4rem;
   }
+  #about-h2{
+    font-size: 4rem;
+  }
+  #cards-div{
+    flex-direction: column;
+  }
+  .card.terminal{
+    width: 70%;
+    border-radius: 16px;
+  }
+  .card > a {
+    width: 50%;
+    height: 100%;
+    padding: 0;
+  }
+  .card > a > .card-img-top{
+    border-bottom-left-radius: 16px;
+    border-top-left-radius: 16px;
+  }
+  div.card-body.cardy{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+  }
+  h5.card-title{
+    font-size: 3rem;
+  }
+  .card-text{
+    font-size: 2rem;
+  }
+  .btn.bts{
+    font-size: 2rem;
+  }
+
 }
 @media (min-width: 1400px) {
 }

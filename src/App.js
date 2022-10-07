@@ -29,15 +29,15 @@ const App = () => {
           <div className="container-fluid projects-container">
             <h2 className="display-5">Projects</h2>
             <div className="container-fluid" id="cards-div">
-              <div className="card terminal" id="project-1">
-                <a href="/cyber-dyne">
+              <div className="card terminal row" id="project-1">
+                <a href="/cyber-dyne" className="col-xl-6">
                   <img
                     src="https://live.staticflickr.com/65535/52174848461_e6d925ae6d_b.jpg"
                     className="card-img-top"
                     alt="..."
                   />
                 </a>
-                <div className="card-body cardy">
+                <div className="card-body cardy col-xl-6">
                   <h5 className="card-title">CyberDyne</h5>
                   <p className="card-text">
                     A todo list app inspired by a 90s aesthetic using html, css
@@ -48,15 +48,15 @@ const App = () => {
                   </a>
                 </div>
               </div>
-              <div className="card terminal" id="project-2">
-                <a href="/pokemon-app">
+              <div className="card terminal row" id="project-2">
+                <a href="/pokemon-app" className="col-xl-6">
                   <img
                     src="https://live.staticflickr.com/65535/52175338960_0c9c21326f_b.jpg"
                     className="card-img-top"
                     alt="..."
                   />
                 </a>
-                <div className="card-body cardy">
+                <div className="card-body cardy col-xl-6">
                   <h5 className="card-title">Pokemon Pokedex</h5>
                   <p className="card-text">
                     A partial clone of the pokemon pokedex you would find on
@@ -68,15 +68,15 @@ const App = () => {
                   </a>
                 </div>
               </div>
-              <div className="card terminal" id="project-3">
-                <a href="/weather-app">
+              <div className="card terminal row" id="project-3">
+                <a href="/weather-app" className="col-xl-6">
                   <img
                     src="https://images.unsplash.com/photo-1610337673044-720471f83677?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1672&q=80"
                     className="card-img-top"
                     alt="..."
                   />
                 </a>
-                <div className="card-body cardy">
+                <div className="card-body cardy col-xl-6">
                   <h5 className="card-title">Weather App</h5>
                   <p className="card-text">
                     A weather app using html, css, React, and APIs.
