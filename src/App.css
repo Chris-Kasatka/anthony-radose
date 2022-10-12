@@ -124,7 +124,7 @@ img {
 
 .btn.bts {
   background: aliceblue;
-  border: aliceblue;
+  border: 3px solid aliceblue;
   color: #6f6cde;
 }
 .footer-li #email {
@@ -246,14 +246,21 @@ img {
 .card-img-top {
   height: 50%;
 }
-div.card.terminal{
-  background-color: transparent;
-  border: none;
-}
 div.card-body.cardy{
   border-bottom-left-radius: var(--bs-card-inner-border-radius);
   border-bottom-right-radius: var(--bs-card-inner-border-radius);
 }
+/* #project-2 > a > .card-img-top{
+  border-radius: 3px 3px 0 0;
+}
+#project-2 > div{
+  border-radius: 0 0 3px 3px;
+} */
+div.card.terminal{
+  background-color: transparent;
+  border: none;
+}
+
 
 div.card {
   width: 70%;
@@ -365,6 +372,13 @@ a.col-xl-6 {
   color: cyan;
 }
 
+#project-1 > div > p, #project-2 > div > p, #project-3 > div > p{
+  overflow: auto;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
 
 @media (max-width: 163px) {
   #about-container {
@@ -416,6 +430,10 @@ a.col-xl-6 {
   .img-fluid.about-img {
     height: 208px;
   }
+  #project-1 > div > p, #project-2 > div > p, #project-3 > div > p{
+ 
+    -webkit-line-clamp: 3;
+  }
 }
 @media (min-width: 1200px) {
   #projects{
@@ -448,8 +466,10 @@ a.col-xl-6 {
     padding: 0;
   }
   .card > a > .card-img-top{
-    border-bottom-left-radius: 16px;
-    border-top-left-radius: 16px;
+    border-radius: 16px 0 0 16px;
+  }
+  #project-2.card > a > .card-img-top{
+    border-radius: 14px 0 0 14px;
   }
   div.card-body.cardy{
     width: 50%;
@@ -458,9 +478,9 @@ a.col-xl-6 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-top-right-radius: 16px;
-    border-bottom-right-radius: 16px;
+    border-radius: 0 16px 16px 0;
   }
+
   h5.card-title{
     font-size: 3rem;
   }
@@ -469,6 +489,10 @@ a.col-xl-6 {
   }
   .btn.bts{
     font-size: 2rem;
+  }
+  #project-1 > div > p, #project-2 > div > p, #project-3 > div > p{
+
+    -webkit-line-clamp: 4;
   }
 
 }
