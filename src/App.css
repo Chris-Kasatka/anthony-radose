@@ -141,6 +141,7 @@ img {
 #about-me {
   height: 100vh;
   background-color: cadetblue;
+  scroll-margin-top: 8vh;
 }
 .diode {
   animation: beam 0.01s infinite;
@@ -159,6 +160,7 @@ img {
 
 .projects {
   background-color: steelblue;
+  scroll-margin-top: 8vh;
 }
 .laser {
   width: 0.1px;
@@ -182,19 +184,23 @@ img {
   justify-content: center;
 }
 
-#about-h2 {
-  margin-bottom: 2rem;
-}
+
 #about-container {
-  /* margin-top: 64px; */
+
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.container-fluid.about-img-container {
-  margin-top: 64px;
+.about-me-p-div{
+
+  width: 90%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+
 }
+
 .img-fluid.about-img {
   /* height: 208px; */
   height: 150px;
@@ -495,6 +501,9 @@ a.col-xl-6 {
     -webkit-line-clamp: 4;
   }
 
+  .about-me-p-div{
+    font-size: 1.5rem;
+  }
 }
 @media (min-width: 1400px) {
 }

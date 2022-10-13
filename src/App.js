@@ -91,8 +91,10 @@ const App = () => {
         </section>
         <section id="about-me">
         <div className="container-fluid" id="about-container">
+          <div className="about-me-h2-div">
           <h2 className="display-5" id="about-h2">About Me</h2>
-     
+          </div>
+            <div className="about-me-p-div">
             <p>
               David Lee Roth is a God, Blade Runner is the greatest movie of all
               time, and video games rule!
@@ -101,6 +103,7 @@ const App = () => {
               I code, play the guitar, play video games, post rad stuff on
               instagram, and drink coffee and beer.
             </p>
+            </div>
             <div className="container-fluid about-img-container">
               <img
                 src="https://images.unsplash.com/photo-1510511459019-5dda7724fd87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
