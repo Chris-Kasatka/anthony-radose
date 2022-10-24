@@ -79,7 +79,7 @@ const App = () => {
                 <div className="card-body cardy col-xl-6">
                   <h5 className="card-title">Weather App</h5>
                   <p className="card-text">
-                    A weather app using html, css, React, and APIs.
+                    A weather app using html, css, React, and APIs (In Progress...)
                   </p>
                   <a href="/weather-app" className="btn bts">
                     Take me there!
