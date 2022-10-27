@@ -32,7 +32,7 @@ const App = () => {
               <div className="card terminal row" id="project-1">
                 <a href="/cyber-dyne" className="col-xl-6">
                   <img
-                    src="https://live.staticflickr.com/65535/52174848461_e6d925ae6d_b.jpg"
+                    src="https://live.staticflickr.com/65535/52458280968_05cebc79a8_b.jpg"
                     className="card-img-top"
                     alt="..."
                   />
@@ -51,7 +51,7 @@ const App = () => {
               <div className="card terminal row" id="project-2">
                 <a href="/pokemon-app" className="col-xl-6">
                   <img
-                    src="https://live.staticflickr.com/65535/52175338960_0c9c21326f_b.jpg"
+                    src="https://live.staticflickr.com/65535/52458237115_0fbfdb8a5b_b.jpg"
                     className="card-img-top"
                     alt="..."
                   />
@@ -121,7 +121,7 @@ const App = () => {
                 alt="..."
               />
               <img
-                src="https://live.staticflickr.com/65535/52172983922_3b925b28cb_b.jpg"
+                src="https://live.staticflickr.com/65535/52458246845_7e9cfb9949_b.jpg"
                 class="img-fluid about-img"
                 alt="..."
               />
