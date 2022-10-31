@@ -1,6 +1,11 @@
 import "./App.css";
 import React from "react";
 import Nav from "./Nav/Nav";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHtml5, faBootstrap, faJs, faReact, faJava } from '@fortawesome/free-brands-svg-icons'
+import { faDatabase } from '@fortawesome/free-solid-svg-icons'
+
+
 
 const App = () => {
   return (
@@ -79,7 +84,8 @@ const App = () => {
                 <div className="card-body cardy col-xl-6">
                   <h5 className="card-title">Weather App</h5>
                   <p className="card-text">
-                    A weather app using html, css, React, and APIs (In Progress...)
+                    A weather app using html, css, React, and APIs (In
+                    Progress...)
                   </p>
                   <a href="/weather-app" className="btn bts">
                     Take me there!
@@ -90,20 +96,52 @@ const App = () => {
           </div>
         </section>
         <section id="about-me">
-        <div className="container-fluid" id="about-container">
-          <div className="about-me-h2-div">
-          <h2 className="display-5" id="about-h2">About Me</h2>
-          </div>
-            <div className="about-me-p-div">
-            <p>
-              David Lee Roth is a God, Blade Runner is the greatest movie of all
-              time, and video games rule!
-            </p>
-            <p>
-              I code, play the guitar, play video games, post rad stuff on
-              instagram, and drink coffee and beer.
-            </p>
+          <div className="container-fluid" id="about-container">
+            <div className="about-me-h2-div">
+              <h2 className="display-5" id="about-h2">
+                About Me
+              </h2>
             </div>
+            <div className="about-me-p-div">
+              <p className="about-me-p">
+                David Lee Roth is a God, Blade Runner is the greatest movie of
+                all time, and video games rule!
+              </p>
+              <p className="about-me-p">
+                I code, play guitar, play video games, post rad stuff on
+                instagram, and drink coffee and beer.
+              </p>
+              <p className="about-me-p">
+                I am a junior front-end developer always looking to expand on my
+                knowledge and learn something new!
+              </p>
+            </div>
+            <div className="tech-stack">
+              <div className="tech-stack-containers">
+              <h3>What I know:</h3>
+              <div className="tech-stack-icons">
+              <FontAwesomeIcon icon={faHtml5} />
+              <i className="bi bi-filetype-css"></i>
+              <FontAwesomeIcon icon={faBootstrap} />
+              <FontAwesomeIcon icon={faJs} />
+              <FontAwesomeIcon icon={faReact} />
+              <i className="bi bi-git"></i>
+              <i className="bi bi-github"></i>
+              </div>
+              </div>
+              <div className="tech-stack-containers">
+              <h3>What I'm learning:</h3>
+              <div className="tech-stack-icons">
+              {/* <i className="fa-solid fa-database"></i> */}
+              <FontAwesomeIcon icon={faDatabase} />
+
+              {/* <i className="fa-brands fa-java"></i> */}
+              <FontAwesomeIcon icon={faJava} />
+              <i className="bi bi-filetype-tsx"></i>
+              </div>
+              </div>
+            </div>
+
             <div className="container-fluid about-img-container">
               <img
                 src="https://images.unsplash.com/photo-1510511459019-5dda7724fd87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"

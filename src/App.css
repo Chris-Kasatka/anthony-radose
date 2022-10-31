@@ -22,6 +22,13 @@
 img {
   object-fit: cover;
 }
+.about-me-p{
+  margin-bottom: 5%;
+  color: white;
+}
+.about-me-p:nth-child(3){
+  margin: 0;
+}
 
 .Intro {
   height: 100vh;
@@ -139,7 +146,7 @@ img {
   text-align: center;
 }
 #about-me {
-  height: 100vh;
+  /* height: 100vh; */
   background-color: cadetblue;
   scroll-margin-top: 8vh;
 }
@@ -187,24 +194,63 @@ img {
 
 #about-container {
 
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
 }
+.about-me-h2-div{
+  margin: 10%;
+}
+#about-h2{
+  margin: 0;
+  color: white;
+  box-shadow: 0 0 13px 4px chartreuse;
+}
 .about-me-p-div{
 
-  width: 90%;
+  /* width: 90%;
   padding-right: calc(var(--bs-gutter-x) * 0.5);
-  padding-left: calc(var(--bs-gutter-x) * 0.5);
-
+  padding-left: calc(var(--bs-gutter-x) * 0.5); */
+  margin-bottom: 10%;
+  width: 70%;
+  padding: 0;
+}
+.tech-stack{
+  margin-bottom: 10%;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.tech-stack-containers{
+  width: 40%;
+  box-shadow: 0 0 13px 4px cyan;
 }
 
+/* #about-container > div.tech-stack > div.teck-stack-containers > div{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+} */
+.tech-stack-icons{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#about-container > div.container-fluid.about-img-container{
+  margin-bottom: 10%;
+  width: 70%;
+  padding: 0;
+}
 .img-fluid.about-img {
   /* height: 208px; */
   height: 150px;
-  border: 3px solid transparent;
+  /* border: 3px solid transparent; */
+  box-shadow: 0 0 13px 4px mediumpurple;
+  width: 33.3%;
 }
 .arrow-container {
   display: flex;
@@ -439,6 +485,12 @@ a.col-xl-6 {
   #project-1 > div > p, #project-2 > div > p, #project-3 > div > p{
  
     -webkit-line-clamp: 3;
+  }
+  .svg-inline--fa{
+    height: 2em;
+  }
+  #about-container > div.tech-stack > div:nth-child(1) > div > i.bi, #about-container > div.tech-stack > div:nth-child(2) > div > i{
+    font-size: 2em;
   }
 }
 @media (min-width: 1200px) {
