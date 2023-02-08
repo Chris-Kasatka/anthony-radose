@@ -1,11 +1,15 @@
 import "./App.css";
 import React from "react";
 import Nav from "./Nav/Nav";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHtml5, faBootstrap, faJs, faReact, faJava } from '@fortawesome/free-brands-svg-icons'
-import { faDatabase } from '@fortawesome/free-solid-svg-icons'
-
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHtml5,
+  faBootstrap,
+  faJs,
+  faReact,
+  faJava,
+} from "@fortawesome/free-brands-svg-icons";
+import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 
 const App = () => {
   return (
@@ -118,27 +122,23 @@ const App = () => {
             </div>
             <div className="tech-stack">
               <div className="tech-stack-containers">
-              <h3>What I know:</h3>
-              <div className="tech-stack-icons">
-              <FontAwesomeIcon icon={faHtml5} />
-              <i className="bi bi-filetype-css"></i>
-              <FontAwesomeIcon icon={faBootstrap} />
-              <FontAwesomeIcon icon={faJs} />
-              <FontAwesomeIcon icon={faReact} />
-              <i className="bi bi-git"></i>
-              <i className="bi bi-github"></i>
-              </div>
+                <h3>What I know:</h3>
+                <div className="tech-stack-icons">
+                  <FontAwesomeIcon icon={faHtml5} />
+                  <i className="bi bi-filetype-css"></i>
+                  <FontAwesomeIcon icon={faBootstrap} />
+                  <FontAwesomeIcon icon={faJs} />
+                  <FontAwesomeIcon icon={faReact} />
+                  <i className="bi bi-git"></i>
+                  <i className="bi bi-github"></i>
+                </div>
               </div>
               <div className="tech-stack-containers">
-              <h3>What I'm learning:</h3>
-              <div className="tech-stack-icons">
-              {/* <i className="fa-solid fa-database"></i> */}
-              <FontAwesomeIcon icon={faDatabase} />
-
-              {/* <i className="fa-brands fa-java"></i> */}
-              <FontAwesomeIcon icon={faJava} />
-              <i className="bi bi-filetype-tsx"></i>
-              </div>
+                <h3>What I'm learning:</h3>
+                <div className="tech-stack-icons">
+                  <FontAwesomeIcon icon={faDatabase} />
+                  <i className="bi bi-filetype-tsx"></i>
+                </div>
               </div>
             </div>
 
