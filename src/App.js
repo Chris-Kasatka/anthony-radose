@@ -7,7 +7,6 @@ import {
   faBootstrap,
   faJs,
   faReact,
-  faJava,
 } from "@fortawesome/free-brands-svg-icons";
 import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 
