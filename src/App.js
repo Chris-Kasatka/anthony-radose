@@ -8,7 +8,8 @@ import {
   faJs,
   faReact,
 } from "@fortawesome/free-brands-svg-icons";
-import { faDatabase } from "@fortawesome/free-solid-svg-icons";
+import { Icon } from '@iconify-icon/react';
+
 
 const App = () => {
   return (
@@ -135,7 +136,7 @@ const App = () => {
               <div className="tech-stack-containers">
                 <h3>What I'm learning:</h3>
                 <div className="tech-stack-icons">
-                  <FontAwesomeIcon icon={faDatabase} />
+                  <Icon icon="simple-icons:mongodb" />
                   <i className="bi bi-filetype-tsx"></i>
                 </div>
               </div>

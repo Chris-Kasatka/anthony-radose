@@ -390,6 +390,10 @@ main {
   transform: translateY(-3px);
 }
 
+#about-container > div.tech-stack > div:nth-child(2) > div > iconify-icon{
+  font-size: 1rem;
+}
+
 footer {
   /* height: 30%; */
   background-color: #373c49;
@@ -527,6 +531,9 @@ a.col-xl-6 {
   }
   #about-container > div.tech-stack > div:nth-child(1) > div > i.bi,
   #about-container > div.tech-stack > div:nth-child(2) > div > i {
+    font-size: 2em;
+  }
+  #about-container > div.tech-stack > div:nth-child(2) > div > iconify-icon{
     font-size: 2em;
   }
 }
