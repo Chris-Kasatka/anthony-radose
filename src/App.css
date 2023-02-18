@@ -390,7 +390,7 @@ main {
   transform: translateY(-3px);
 }
 
-#about-container > div.tech-stack > div:nth-child(2) > div > iconify-icon{
+#about-container > div.tech-stack > div:nth-child(2) > div > iconify-icon {
   font-size: 1rem;
 }
 
@@ -402,31 +402,6 @@ footer {
   position: relative;
   /* background-size: cover; */
 }
-
-/* .nav-buttons {
-  width: 160px;
-  height: 48px;
-  	 background: ghostwhite;
-  border: none;
-  border-radius: 32px;
-  cursor: pointer;
-	 /* font-family: Helvetica, sans-serif; */
-/* font-size: 16px;
-	 font-weight: 400;
-  transition: all 0.1s ease-in-out;
-  box-shadow: -3px -3px 10px rgba(255, 255, 255, 0.8), 6px 6px 10px rgba(0, 0, 0, 0.2);
-  color: #6f6cde; */
-/* } */
-
-/* .nav-buttons:hover {
-	 opacity: 0.3;
-	 box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8), 6px 6px 10px rgba(0, 0, 0, 0.2);
-}
- .nav-buttons:active {
-	 opacity: 1;
-	 box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.5), inset 8px 8px 16px rgba(0, 0, 0, 0.1);
-	 color: #79e3b6;
-} */
 
 .projects-container {
   height: 100%;
@@ -533,7 +508,7 @@ a.col-xl-6 {
   #about-container > div.tech-stack > div:nth-child(2) > div > i {
     font-size: 2em;
   }
-  #about-container > div.tech-stack > div:nth-child(2) > div > iconify-icon{
+  #about-container > div.tech-stack > div:nth-child(2) > div > iconify-icon {
     font-size: 2em;
   }
 }
