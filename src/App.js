@@ -8,8 +8,7 @@ import {
   faJs,
   faReact,
 } from "@fortawesome/free-brands-svg-icons";
-import { Icon } from '@iconify-icon/react';
-
+import { Icon } from "@iconify-icon/react";
 
 const App = () => {
   return (
@@ -39,7 +38,12 @@ const App = () => {
             <h2 className="display-5">Projects</h2>
             <div className="container-fluid" id="cards-div">
               <div className="card terminal row" id="project-1">
-                <a href="/cyber-dyne" className="col-xl-6">
+                <a
+                  href="/cyber-dyne"
+                  className="col-xl-6"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img
                     src="https://live.staticflickr.com/65535/52458280968_05cebc79a8_b.jpg"
                     className="card-img-top"
@@ -52,13 +56,23 @@ const App = () => {
                     A todo list app inspired by a 90s aesthetic using html, css
                     and vanilla Javascript.
                   </p>
-                  <a href="/cyber-dyne" className="btn bts">
+                  <a
+                    href="/cyber-dyne"
+                    className="btn bts"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Take me there!
                   </a>
                 </div>
               </div>
               <div className="card terminal row" id="project-2">
-                <a href="/pokemon-app" className="col-xl-6">
+                <a
+                  href="/pokemon-app"
+                  className="col-xl-6"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img
                     src="https://live.staticflickr.com/65535/52458237115_0fbfdb8a5b_b.jpg"
                     className="card-img-top"
@@ -72,13 +86,23 @@ const App = () => {
                     google using HTML, CSS, React, the framework Material UI and
                     utilizing an API.
                   </p>
-                  <a href="/pokemon-app" className="btn bts">
+                  <a
+                    href="/pokemon-app"
+                    className="btn bts"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Take me there!
                   </a>
                 </div>
               </div>
               <div className="card terminal row" id="project-3">
-                <a href="/weather-app" className="col-xl-6">
+                <a
+                  href="/weather-app"
+                  className="col-xl-6"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img
                     src="https://live.staticflickr.com/65535/52544440806_db996cca4b_o.png"
                     className="card-img-top"
@@ -91,7 +115,12 @@ const App = () => {
                     A weather app using html, css, React, and APIs (In
                     Progress...)
                   </p>
-                  <a href="/weather-app" className="btn bts">
+                  <a
+                    href="/weather-app"
+                    className="btn bts"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Take me there!
                   </a>
                 </div>
@@ -189,6 +218,8 @@ const App = () => {
                 <a
                   className="footer-link footer-links footer-icons"
                   href="https://github.com/anthonyradose"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   <i className="bi bi-github"></i>
                 </a>
@@ -197,6 +228,8 @@ const App = () => {
                 <a
                   className="footer-link footer-links footer-icons"
                   href="https://www.instagram.com/asradose/"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   <i className="bi bi-instagram"></i>
                 </a>
@@ -205,6 +238,8 @@ const App = () => {
                 <a
                   className="footer-link footer-links footer-icons"
                   href="https://www.linkedin.com/in/anthony-radose-35a969236/"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   <i className="bi bi-linkedin"></i>
                 </a>

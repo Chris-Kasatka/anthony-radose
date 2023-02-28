@@ -1,12 +1,12 @@
-import React, { useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import "./Nav.css";
 
 const Nav = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
 
   useEffect(() => {
-    document.addEventListener("click", ()=>{
-      setIsNavExpanded(false)
+    document.addEventListener("click", () => {
+      setIsNavExpanded(false);
     });
   }, []);
 
@@ -38,7 +38,6 @@ const Nav = () => {
         className={
           isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
         }
-
       >
         <div className="divvy divvy2">
           <li className="nav-item">
@@ -62,6 +61,8 @@ const Nav = () => {
             <a
               className="nav-link nav-links nav-icons"
               href="https://github.com/anthonyradose"
+              target="_blank"
+              rel="noreferrer"
             >
               <i className="bi bi-github"></i>
             </a>
@@ -70,6 +71,8 @@ const Nav = () => {
             <a
               className="nav-link nav-links nav-icons"
               href="https://www.instagram.com/asradose/"
+              target="_blank"
+              rel="noreferrer"
             >
               <i className="bi bi-instagram"></i>
             </a>
@@ -78,6 +81,7 @@ const Nav = () => {
             <a
               className="nav-link nav-links nav-icons"
               href="https://www.linkedin.com/in/anthony-radose-35a969236/"
+              target="_blank" rel="noreferrer"
             >
               <i className="bi bi-linkedin"></i>
             </a>
