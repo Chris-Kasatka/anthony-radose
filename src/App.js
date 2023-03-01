@@ -244,6 +244,16 @@ const App = () => {
                   <i className="bi bi-linkedin"></i>
                 </a>
               </li>
+              <li className="footer-li">
+                <a
+                  className="footer-link footer-links footer-icons"
+                  href="./cv.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="bi bi-file-person"></i>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
