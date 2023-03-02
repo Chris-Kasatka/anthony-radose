@@ -9,6 +9,7 @@ import {
   faReact,
 } from "@fortawesome/free-brands-svg-icons";
 import { Icon } from "@iconify-icon/react";
+import CV from "./CV-2023.pdf"
 
 const App = () => {
   return (
@@ -247,7 +248,7 @@ const App = () => {
               <li className="footer-li">
                 <a
                   className="footer-link footer-links footer-icons"
-                  href="./cv.pdf"
+                  href={CV}
                   target="_blank"
                   rel="noreferrer"
                 >
