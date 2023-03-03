@@ -74,6 +74,9 @@
 .divvy1 {
   height: 8.1vh;
 }
+.eye{
+  border-radius: 50%;
+}
 .hamburger {
   display: flex;
   align-items: center;
