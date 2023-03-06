@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Nav.css";
+import CV from "../CV-2023.pdf";
 
 const Nav = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -81,9 +82,20 @@ const Nav = () => {
             <a
               className="nav-link nav-links nav-icons"
               href="https://www.linkedin.com/in/anthony-radose-35a969236/"
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
             >
               <i className="bi bi-linkedin"></i>
+            </a>
+          </li>
+          <li className="nav-item">
+            <a
+              className="nav-link nav-links nav-icons"
+              href={CV}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="bi bi-file-person"></i>
             </a>
           </li>
         </div>

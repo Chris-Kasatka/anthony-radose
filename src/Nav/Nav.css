@@ -74,7 +74,7 @@
 .divvy1 {
   height: 8.1vh;
 }
-.eye{
+.eye {
   border-radius: 50%;
 }
 .hamburger {
@@ -95,7 +95,7 @@
   display: block;
 }
 
-.bi-list{
+.bi-list {
   color: black;
   font-size: 32px;
   font-weight: 800;
@@ -125,11 +125,8 @@
   align-items: center;
 }
 
-.nav-link.nav-links{
+.nav-link.nav-links {
   padding: 8px 0;
-}
-.divvy.divvy3 > li{
-  padding: 8px 16px;
 }
 
 /* YEEEEEEEEEEEEEEEEEAAAAAAAAAAAAAAAAAAAAAAAAAAAAH!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
@@ -139,7 +136,8 @@
     background-image: linear-gradient(to right, cyan 50%, #53565a 50%);
   }
 
-  .hamburger, .bi-list {
+  .hamburger,
+  .bi-list {
     display: none;
   }
 
@@ -154,11 +152,14 @@
   .divvy1 {
     width: 30%;
   }
-  .divvy.divvy2{
+  .divvy.divvy2 {
     width: 57%;
   }
   .divvy.divvy3 {
     width: 43%;
+  }
+  .divvy.divvy3 > li {
+    padding: 8px 16px;
   }
   .navigation-menu.expanded {
     display: flex;
