@@ -215,44 +215,44 @@ const App = () => {
               <li className="footer-li">
                 Email: <span>asradose@gmail.com</span>
               </li>
-              <li className="footer-li">
+              <li className="footer-li ">
                 <a
-                  className="footer-link footer-links footer-icons"
+                  className="footer-link footer-links"
                   href="https://github.com/anthonyradose"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <i className="bi bi-github"></i>
+                  <i className="bi bi-github footer-icons"></i>
                 </a>
               </li>
-              <li className="footer-li">
+              <li className="footer-li ">
                 <a
-                  className="footer-link footer-links footer-icons"
+                  className="footer-link footer-links"
                   href="https://www.instagram.com/asradose/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <i className="bi bi-instagram"></i>
+                  <i className="bi bi-instagram footer-icons"></i>
                 </a>
               </li>
-              <li className="footer-li">
+              <li className="footer-li ">
                 <a
-                  className="footer-link footer-links footer-icons"
+                  className="footer-link footer-links"
                   href="https://www.linkedin.com/in/anthony-radose-35a969236/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <i className="bi bi-linkedin"></i>
+                  <i className="bi bi-linkedin footer-icons"></i>
                 </a>
               </li>
-              <li className="footer-li">
+              <li className="footer-li ">
                 <a
-                  className="footer-link footer-links footer-icons"
+                  className="footer-link footer-links"
                   href={CV}
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <i className="bi bi-file-person"></i>
+                  <i className="bi bi-file-person footer-icons"></i>
                 </a>
               </li>
             </ul>
