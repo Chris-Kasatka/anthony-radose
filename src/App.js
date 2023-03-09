@@ -9,7 +9,7 @@ import {
   faReact,
 } from "@fortawesome/free-brands-svg-icons";
 import { Icon } from "@iconify-icon/react";
-import CV from "./CV-2023.pdf"
+import CV from "./CV-2023.pdf";
 
 const App = () => {
   return (
@@ -142,12 +142,12 @@ const App = () => {
                 all time, and video games rule!
               </p>
               <p className="about-me-p">
-                I code, play guitar, play video games, post rad stuff on
-                instagram, and drink coffee and beer.
+                Hello, I am a junior front-end developer always looking to
+                expand my knowledge and learn something new!
               </p>
               <p className="about-me-p">
-                I am a junior front-end developer always looking to expand on my
-                knowledge and learn something new!
+                When I'm not coding, I play guitar, play video games, post rad
+                stuff on Instagram, and drink coffee and beer!
               </p>
             </div>
             <div className="tech-stack">
