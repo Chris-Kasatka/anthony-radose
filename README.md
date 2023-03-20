@@ -97,6 +97,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 * [GitHub Pages](https://pages.github.com)
 * [Fontawesome](https://fontawesome.com/icons)
-* [Bootstrap]([https://github.com/axios/axios](https://getbootstrap.com/))
+* [Bootstrap](https://getbootstrap.com/)
 
 
