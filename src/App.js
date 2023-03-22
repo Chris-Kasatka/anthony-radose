@@ -7,6 +7,7 @@ import {
   faBootstrap,
   faJs,
   faReact,
+  faGithubSquare,
 } from "@fortawesome/free-brands-svg-icons";
 import { Icon } from "@iconify-icon/react";
 import CV from "./CV-2023.pdf";
@@ -57,14 +58,24 @@ const App = () => {
                     A todo list app inspired by a 90s aesthetic using html, css
                     and vanilla Javascript.
                   </p>
-                  <a
-                    href="/cyber-dyne"
-                    className="btn bts"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Take me there!
-                  </a>
+                  <div className="project-a-div">
+                    <a
+                      href="https://github.com/anthonyradose/cyber-dyne"
+                      className="btn bts github-btns"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FontAwesomeIcon icon={faGithubSquare} />
+                    </a>
+                    <a
+                      href="/cyber-dyne"
+                      className="btn bts"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Take me there!
+                    </a>
+                  </div>
                 </div>
               </div>
               <div className="card terminal row" id="project-2">
@@ -87,14 +98,24 @@ const App = () => {
                     google using HTML, CSS, React, the framework Material UI and
                     utilizing an API.
                   </p>
-                  <a
-                    href="/pokemon-app"
-                    className="btn bts"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Take me there!
-                  </a>
+                  <div className="project-a-div">
+                    <a
+                      href="https://github.com/anthonyradose/pokemon-app"
+                      className="btn bts github-btns"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FontAwesomeIcon icon={faGithubSquare} />
+                    </a>
+                    <a
+                      href="/pokemon-app"
+                      className="btn bts"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Take me there!
+                    </a>
+                  </div>
                 </div>
               </div>
               <div className="card terminal row" id="project-3">
@@ -116,14 +137,24 @@ const App = () => {
                     A weather app using html, css, React, and APIs (In
                     Progress...)
                   </p>
-                  <a
-                    href="/weather-app"
-                    className="btn bts"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Take me there!
-                  </a>
+                  <div className="project-a-div">
+                    <a
+                      href="https://github.com/anthonyradose/weather-app"
+                      className="btn bts github-btns"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FontAwesomeIcon icon={faGithubSquare} />
+                    </a>
+                    <a
+                      href="/weather-app"
+                      className="btn bts"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Take me there!
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>

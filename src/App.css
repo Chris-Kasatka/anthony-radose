@@ -151,11 +151,24 @@ img {
   }
 }
 
-.btn.bts {
+.project-a-div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+}
+.btn.bts,
+.github-btns {
   background: aliceblue;
   border: 3px solid aliceblue;
   color: #6f6cde;
 }
+
+.github-btns > svg {
+  display: flex;
+}
+
 .footer-li #email {
   color: white;
 }
