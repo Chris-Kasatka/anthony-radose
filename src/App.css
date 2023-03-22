@@ -1,12 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Gugi&family=Libre+Barcode+39+Text&family=Roboto+Mono:wght@100;300;400&family=Special+Elite&family=Tomorrow:wght@100&family=VT323&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gugi&family=VT323&display=swap");
 
 .App {
   text-align: center;
   background-color: azure;
   margin: 0;
   padding: 0;
-  /* width: 100%;
-  height: 100vh; */
   overflow: auto;
   font-family: "Gugi", sans-serif;
 }
