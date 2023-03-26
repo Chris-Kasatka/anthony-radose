@@ -7,10 +7,10 @@ import {
   faBootstrap,
   faJs,
   faReact,
-  faGithubSquare,
 } from "@fortawesome/free-brands-svg-icons";
 import { Icon } from "@iconify-icon/react";
 import CV from "./CV-2023.pdf";
+import GithubLogo from "./GithubLogo.jpg";
 
 const App = () => {
   return (
@@ -65,7 +65,7 @@ const App = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <FontAwesomeIcon icon={faGithubSquare} />
+                      <img className="github-img" src={GithubLogo} alt="github logo"></img>
                     </a>
                     <a
                       href="/cyber-dyne"
@@ -105,7 +105,7 @@ const App = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <FontAwesomeIcon icon={faGithubSquare} />
+                          <img className="github-img" src={GithubLogo} alt="github logo"></img>
                     </a>
                     <a
                       href="/pokemon-app"
@@ -143,9 +143,7 @@ const App = () => {
                       className="btn bts github-btns"
                       target="_blank"
                       rel="noreferrer"
-                    >
-                      <FontAwesomeIcon icon={faGithubSquare} />
-                    </a>
+                    >    <img className="github-img" src={GithubLogo} alt="github logo"></img></a>
                     <a
                       href="/weather-app"
                       className="btn bts"

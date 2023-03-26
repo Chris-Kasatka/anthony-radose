@@ -163,12 +163,24 @@ img {
   background: aliceblue;
   border: 3px solid aliceblue;
   color: #6f6cde;
-}
-
-.github-btns > svg {
   display: flex;
 }
-
+a.btn.bts.github-btns {
+  padding: 0;
+  color: #6f6cde;
+}
+.github-btns > img {
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.github-p,
+.github-img {
+  margin: 0;
+}
+.github-img {
+  width: 2em;
+}
 .footer-li #email {
   color: white;
 }
