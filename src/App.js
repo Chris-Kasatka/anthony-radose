@@ -37,7 +37,7 @@ const App = () => {
         </section>
         <section className="projects" id="projects">
           <div className="container-fluid projects-container">
-            <h2 className="display-5">Projects</h2>
+            <h2 className="display-5" id="projects-h2">Projects</h2>
             <div className="container-fluid" id="cards-div">
               <div className="card terminal row" id="project-1">
                 <a
