@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Gugi&family=VT323&display=swap");
+
 
 .App {
   text-align: center;
@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   overflow: auto;
-  font-family: "Gugi", sans-serif;
+  font-family: 'Gugi', sans-serif;
 }
 
 img {
@@ -363,7 +363,7 @@ main {
 
 #cards-div {
   display: flex;
-  font-family: "VT323", monospace;
+  font-family: 'VT323', monospace;
   height: 70%;
   flex-direction: column;
   align-items: center;
