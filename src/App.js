@@ -40,7 +40,7 @@ const App = () => {
         </section>
         <section className="projects" id="projects">
           <div className="container-fluid projects-container">
-            <h2 className="display-5" id="projects-h2">Projects</h2>
+            <h2 className="display-2" id="projects-h2">Projects</h2>
             <div className="container-fluid" id="cards-div">
               <div className="card terminal row" id="project-1">
                 <a
@@ -164,7 +164,7 @@ const App = () => {
         <section id="about-me">
           <div className="container-fluid" id="about-container">
             <div className="about-me-h2-div">
-              <h2 className="display-5" id="about-h2">
+              <h2 className="display-2" id="about-h2">
                 About Me
               </h2>
             </div>

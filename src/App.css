@@ -292,7 +292,7 @@ a.btn.bts.github-btns {
 }
 .img-fluid.about-img {
   height: 150px;
-  box-shadow: 0 0 13px 4px mediumpurple;
+  box-shadow: 0 0 13px 5px mediumpurple;
   width: 33.3%;
 }
 .arrow-container {
@@ -391,15 +391,15 @@ footer {
 }
 #project-1 {
   box-shadow: 0 0 13px cyan;
-  border: 3px solid cyan;
+  border: 1px solid cyan;
 }
 #project-2 {
   box-shadow: 0 0 13px 3px #ff69b4;
-  border: 3px solid #ff69b4;
+  border: 1px solid #ff69b4;
 }
 #project-3 {
   box-shadow: 0 0 13px 1px mediumspringgreen;
-  border: 3px solid mediumspringgreen;
+  border: 1px solid mediumspringgreen;
 }
 a.col-xl-6 {
   padding: 0;
@@ -485,10 +485,10 @@ a.col-xl-6 {
   }
   #about-container > div.tech-stack > div:nth-child(1) > div > i.bi,
   #about-container > div.tech-stack > div:nth-child(2) > div > i {
-    font-size: 2em;
+    font-size: 1.5rem;
   }
   #about-container > div.tech-stack > div:nth-child(2) > div > iconify-icon {
-    font-size: 2em;
+    font-size: 1.5rem;
   }
 }
 @media (min-width: 1200px) {
@@ -497,6 +497,7 @@ a.col-xl-6 {
   }
   div > .terminal {
     width: 30%;
+
   }
   div.card {
     margin-bottom: 48px;
@@ -506,9 +507,7 @@ a.col-xl-6 {
     padding-bottom: 128px;
     font-size: 4rem;
   }
-  #about-h2 {
-    font-size: 4rem;
-  }
+
   #cards-div {
     flex-direction: column;
   }
@@ -538,13 +537,13 @@ a.col-xl-6 {
   }
 
   h5.card-title {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .card-text {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .btn.bts {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   #project-1 > div > p,
   #project-2 > div > p,
