@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Nav.css";
 import CV from "../CV-2023.pdf";
+import eye from "../images/eye.jpg";
 
 const Nav = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -22,11 +23,7 @@ const Nav = () => {
       <div className="divvy divvy1">
         <li className="nav-item">
           <a href="#top">
-            <img
-              src="https://live.staticflickr.com/65535/52723820650_1de1ddef18_o.jpg"
-              alt="EYE"
-              className="eye"
-            />
+            <img src={eye} alt="EYE" className="eye" />
           </a>
         </li>
       </div>

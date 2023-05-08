@@ -11,6 +11,9 @@ import {
 import { Icon } from "@iconify-icon/react";
 import CV from "./CV-2023.pdf";
 import GithubLogo from "./GithubLogo.jpg";
+import project1 from "./images/project1.jpg"
+import project2 from "./images/project2.jpg"
+import project3 from "./images/project3.jpg"
 
 const App = () => {
   return (
@@ -47,7 +50,7 @@ const App = () => {
                   rel="noreferrer"
                 >
                   <img
-                    src="https://live.staticflickr.com/65535/52458280968_05cebc79a8_b.jpg"
+                    src={project1}
                     className="card-img-top"
                     alt="..."
                   />
@@ -86,7 +89,7 @@ const App = () => {
                   rel="noreferrer"
                 >
                   <img
-                    src="https://live.staticflickr.com/65535/52458237115_0fbfdb8a5b_b.jpg"
+                    src={project2}
                     className="card-img-top"
                     alt="..."
                   />
@@ -126,7 +129,7 @@ const App = () => {
                   rel="noreferrer"
                 >
                   <img
-                    src="https://live.staticflickr.com/65535/52544440806_db996cca4b_o.png"
+                    src={project3}
                     className="card-img-top"
                     alt="..."
                   />
