@@ -380,7 +380,7 @@ main {
 footer {
   background-color: #373c49;
   position: relative;
-  background: url(https://cdn.midjourney.com/9953c8b1-92ae-486c-baca-1992308fb343/grid_0.png);
+  background: url("./images/grid_0.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
