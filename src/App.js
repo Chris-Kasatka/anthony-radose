@@ -14,6 +14,7 @@ import GithubLogo from "./GithubLogo.jpg";
 import project1 from "./images/project1.jpg"
 import project2 from "./images/project2.jpg"
 import project3 from "./images/project3.jpg"
+import project4 from "./images/project4.jpg"
 
 const App = () => {
   return (
@@ -151,6 +152,41 @@ const App = () => {
                       href="/weather-app"
                       className="btn bts"
                       target="_blank"
+                      rel="noreferrer"
+                    >
+                      Take me there!
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="card terminal row" id="project-4">
+                <a
+                  href="#top"
+                  className="col-xl-6"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={project4}
+                    className="card-img-top"
+                    alt="..."
+                  />
+                </a>
+                <div className="card-body cardy col-xl-6">
+                  <h5 className="card-title">Landing Page</h5>
+                  <p className="card-text">
+                    My portfolio site using html, css, React, and Bootstrap
+                  </p>
+                  <div className="project-a-div">
+                    <a
+                      href="https://github.com/anthonyradose/anthonyradose.github.io"
+                      className="btn bts github-btns"
+                      target="_blank"
+                      rel="noreferrer"
+                    >    <img className="github-img" src={GithubLogo} alt="github logo"></img></a>
+                    <a
+                      href="#top"
+                      className="btn bts"
+                     
                       rel="noreferrer"
                     >
                       Take me there!

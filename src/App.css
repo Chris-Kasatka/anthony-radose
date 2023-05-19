@@ -150,6 +150,23 @@ img {
     box-shadow: 0 0 13px mediumspringgreen;
   }
 }
+#project-4:hover {
+  animation: change-color4 2s ease-in-out infinite;
+}
+@keyframes change-color4 {
+  0% {
+    border-color: yellow;
+    box-shadow: 0 0 13px yellow;
+  }
+  50% {
+    border-color: white;
+    box-shadow: 0 0 13px white;
+  }
+  100% {
+    border-color: yellow;
+    box-shadow: 0 0 13px yellow;
+  }
+}
 
 .project-a-div {
   display: flex;
@@ -401,6 +418,10 @@ footer {
   box-shadow: 0 0 13px 1px mediumspringgreen;
   border: 1px solid mediumspringgreen;
 }
+#project-4 {
+  box-shadow: 0 0 13px 1px yellow;
+  border: 1px solid yellow;
+}
 a.col-xl-6 {
   padding: 0;
 }
@@ -421,7 +442,8 @@ a.col-xl-6 {
 
 #project-1 > div > p,
 #project-2 > div > p,
-#project-3 > div > p {
+#project-3 > div > p,
+#project-4 > div > p {
   overflow: auto;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -441,47 +463,11 @@ a.col-xl-6 {
 }
 
 @media (min-width: 768px) {
-  div.card {
-    width: 30%;
-    margin-top: 0;
-  }
-  #cards-div {
-    flex-direction: row;
-    padding: 0;
-    display: flex;
-    justify-content: space-evenly;
-  }
-  .card {
-    width: 30%;
-    height: unset;
-  }
-  .projects {
-    height: 100vh;
-  }
-  .projects-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .projects-container > h2 {
-    padding: 0;
-    margin-bottom: 0;
-  }
+
 }
 @media (min-width: 992px) {
-  div.card {
-    height: 400px;
-  }
   .img-fluid.about-img {
     height: 208px;
-  }
-  #project-1 > div > p,
-  #project-2 > div > p,
-  #project-3 > div > p {
-    -webkit-line-clamp: 3;
-  }
-  .svg-inline--fa {
-    height: 2em;
   }
   #about-container > div.tech-stack > div:nth-child(1) > div > i.bi,
   #about-container > div.tech-stack > div:nth-child(2) > div > i {
@@ -490,8 +476,16 @@ a.col-xl-6 {
   #about-container > div.tech-stack > div:nth-child(2) > div > iconify-icon {
     font-size: 1.5rem;
   }
-}
-@media (min-width: 1200px) {
+
+  #project-1 > div > p,
+  #project-2 > div > p,
+  #project-3 > div > p,
+  #project-4 > div > p {
+    -webkit-line-clamp: 3;
+  }
+  .svg-inline--fa {
+    height: 2em;
+  }
   #projects {
     height: fit-content;
   }
@@ -502,11 +496,7 @@ a.col-xl-6 {
   div.card {
     margin-bottom: 48px;
   }
-  .projects-container > h2 {
-    padding-top: 128px;
-    padding-bottom: 128px;
-    font-size: 4rem;
-  }
+ 
 
   #cards-div {
     flex-direction: column;
@@ -520,12 +510,19 @@ a.col-xl-6 {
     height: 100%;
     padding: 0;
   }
-  .card > a > .card-img-top {
-    border-radius: 16px 0 0 16px;
-  }
-  #project-2.card > a > .card-img-top {
-    border-radius: 14px 0 0 14px;
-  }
+#project-1 > a > img.card-img-top, #project-3 > a > img.card-img-top{
+  border-radius: 16px 0 0 16px;
+}
+#project-1 > div.card-body.cardy, #project-3 div.card-body.cardy {
+  border-radius: 0 16px 16px 0;
+} 
+#project-2 > a > img.card-img-top, #project-4 > a > img.card-img-top{
+  border-radius: 0 16px 16px 0;
+}
+#project-2 > div.card-body.cardy, #project-4 div.card-body.cardy {
+  border-radius: 16px 0 0 16px;
+} 
+
   div.card-body.cardy {
     width: 50%;
     height: 100%;
@@ -533,7 +530,6 @@ a.col-xl-6 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 0 16px 16px 0;
   }
 
   h5.card-title {
@@ -547,9 +543,17 @@ a.col-xl-6 {
   }
   #project-1 > div > p,
   #project-2 > div > p,
-  #project-3 > div > p {
+  #project-3 > div > p,
+  #project-4 > div > p {
     -webkit-line-clamp: 4;
   }
+  .card:nth-of-type(even) {
+    flex-direction: row-reverse;
+  }
+}
+
+@media (min-width: 1200px) {
+ 
 
   .about-me-p-div {
     font-size: 1.5rem;
