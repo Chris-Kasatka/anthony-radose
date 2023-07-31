@@ -101,7 +101,9 @@
   font-size: 32px;
   font-weight: 800;
 }
-
+#about-nav-link{
+  margin: auto;
+}
 .navigation-menu.expanded {
   display: flex;
   height: 24vh;
@@ -133,6 +135,9 @@
 /* YEEEEEEEEEEEEEEEEEAAAAAAAAAAAAAAAAAAAAAAAAAAAAH!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 @media (min-width: 768px) {
+
+}
+@media (min-width: 992px) {
   .nav-link.nav-links.nav-icons {
     background-image: linear-gradient(to right, cyan 50%, #53565a 50%);
   }
@@ -171,10 +176,5 @@
   .navvy {
     align-items: unset;
   }
-}
-@media (min-width: 992px) {
-.divvy.divvy3 > li {
-  padding: 16px;
-}
 }
 

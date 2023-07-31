@@ -40,17 +40,17 @@ const Nav = () => {
         <div className="divvy divvy2">
           <li className="nav-item">
             <a className="nav-link nav-links" href="#projects">
-              Projects
+              PROJECTS
             </a>
           </li>
-          <li className="nav-item">
+          <li className="nav-item" id="about-nav-link">
             <a className="nav-link nav-links" href="#about-me">
-              About Me
+              ABOUT ME
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link nav-links" href="#contact">
-              Contact
+              CONTACT
             </a>
           </li>
         </div>
