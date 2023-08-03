@@ -7,14 +7,14 @@ import {
   faBootstrap,
   faJs,
   faReact,
+  faSquareGithub,
 } from "@fortawesome/free-brands-svg-icons";
 import { Icon } from "@iconify-icon/react";
 import CV from "./CV-2023.pdf";
-import GithubLogo from "./GithubLogo.jpg";
-import project1 from "./images/project1.jpg"
-import project2 from "./images/project2.jpg"
-import project3 from "./images/project3.jpg"
-import project4 from "./images/project4.jpg"
+import project1 from "./images/project1.jpg";
+import project2 from "./images/project2.jpg";
+import project3 from "./images/project3.jpg";
+import project4 from "./images/project4.jpg";
 
 const App = () => {
   return (
@@ -39,167 +39,109 @@ const App = () => {
             </div>
           </div>
         </section>
+
         <section className="projects" id="projects">
-          <div className="container-fluid projects-container">
-            <h2 className="display-2" id="projects-h2">PROJECTS</h2>
-            <div className="container-fluid" id="cards-div">
-              <div className="card terminal row" id="project-1">
-                <a
-                  href="/cyber-dyne"
-                  className="col-xl-6"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+          <div className="container projects-container">
+            <div className="projects-h2-div">
+            <h2 className="display-2" id="projects-h2">
+              PROJECTS
+            </h2>
+            </div>
+            <div className="row">
+              <div className="col-6 col-lg-4 mb-4">
+                <div className="card" id="project-1">
                   <img
                     src={project1}
-                    className="card-img-top"
-                    alt="..."
+                    className="card-img-top project-image"
+                    alt="Project 1"
                   />
-                </a>
-                <div className="card-body cardy col-xl-6">
-                  <h5 className="card-title">CyberDyne</h5>
-                  <p className="card-text">
-                    A todo list app inspired by a 90s aesthetic using html, css
-                    and vanilla Javascript.
-                  </p>
-                  <div className="project-a-div">
-                    <a
-                      href="https://github.com/anthonyradose/cyber-dyne"
-                      className="btn bts github-btns"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <img className="github-img" src={GithubLogo} alt="github logo"></img>
-                    </a>
-                    <a
-                      href="/cyber-dyne"
-                      className="btn bts"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      Take me there!
-                    </a>
+                  <div className="card-body">
+                    <h5 className="card-title">CyberDyne</h5>
+                    <div className="mt-3">
+                      <a href="/cyber-dyne">
+                      <FontAwesomeIcon icon={faSquareGithub} className="github-logo" />
+                      </a>
+
+                      <a href="/cyber-dyne" className="btn btn-primary">
+                        Take me There!
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div className="card terminal row" id="project-2">
-                <a
-                  href="/pokemon-app"
-                  className="col-xl-6"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+              <div className="col-6 col-lg-4 mb-4">
+                <div className="card" id="project-2">
                   <img
                     src={project2}
-                    className="card-img-top"
-                    alt="..."
+                    className="card-img-top project-image"
+                    alt="Project 2"
                   />
-                </a>
-                <div className="card-body cardy col-xl-6">
-                  <h5 className="card-title">Pokemon Pokedex</h5>
-                  <p className="card-text">
-                    A partial clone of the pokemon pokedex you would find on
-                    google using HTML, CSS, React, the framework Material UI and
-                    utilizing an API.
-                  </p>
-                  <div className="project-a-div">
-                    <a
-                      href="https://github.com/anthonyradose/pokemon-app"
-                      className="btn bts github-btns"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                          <img className="github-img" src={GithubLogo} alt="github logo"></img>
-                    </a>
-                    <a
-                      href="/pokemon-app"
-                      className="btn bts"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      Take me there!
-                    </a>
+                  <div className="card-body">
+                    <h5 className="card-title">Pokemon Pokedex</h5>
+                    <div className="mt-3">
+                      <a href="/cyber-dyne">
+                      <FontAwesomeIcon icon={faSquareGithub} className="github-logo" />
+
+                      </a>
+
+                      <a href="/cyber-dyne" className="btn btn-primary">
+                        Take me There!
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div className="card terminal row" id="project-3">
-                <a
-                  href="/weather-app"
-                  className="col-xl-6"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+              <div className="col-6 col-lg-4 mb-4">
+                <div className="card" id="project-3">
                   <img
                     src={project3}
-                    className="card-img-top"
-                    alt="..."
+                    className="card-img-top project-image"
+                    alt="Project 3"
                   />
-                </a>
-                <div className="card-body cardy col-xl-6">
-                  <h5 className="card-title">Weather App</h5>
-                  <p className="card-text">
-                    A weather app using html, css, React, and APIs (In
-                    Progress...)
-                  </p>
-                  <div className="project-a-div">
-                    <a
-                      href="https://github.com/anthonyradose/weather-app"
-                      className="btn bts github-btns"
-                      target="_blank"
-                      rel="noreferrer"
-                    >    <img className="github-img" src={GithubLogo} alt="github logo"></img></a>
-                    <a
-                      href="/weather-app"
-                      className="btn bts"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      Take me there!
-                    </a>
+                  <div className="card-body">
+                    <h5 className="card-title">Weather App</h5>
+                    <div className="mt-3">
+                      <a href="/cyber-dyne">
+                      <FontAwesomeIcon icon={faSquareGithub} className="github-logo" />
+
+                      </a>
+
+                      <a href="/cyber-dyne" className="btn btn-primary">
+                        Take me There!
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div className="card terminal row" id="project-4">
-                <a
-                  href="#top"
-                  className="col-xl-6"
-                  rel="noreferrer"
-                >
+              <div className="col-6 col-lg-4 offset-lg-4 mb-4">
+                <div className="card" id="project-4">
                   <img
                     src={project4}
-                    className="card-img-top"
-                    alt="..."
+                    className="card-img-top project-image"
+                    alt="Project 4"
                   />
-                </a>
-                <div className="card-body cardy col-xl-6">
-                  <h5 className="card-title">Landing Page</h5>
-                  <p className="card-text">
-                    My portfolio site using html, css, React, and Bootstrap
-                  </p>
-                  <div className="project-a-div">
-                    <a
-                      href="https://github.com/anthonyradose/anthonyradose.github.io"
-                      className="btn bts github-btns"
-                      target="_blank"
-                      rel="noreferrer"
-                    >    <img className="github-img" src={GithubLogo} alt="github logo"></img></a>
-                    <a
-                      href="#top"
-                      className="btn bts"
-                     
-                      rel="noreferrer"
-                    >
-                      Take me there!
-                    </a>
+                  <div className="card-body">
+                    <h5 className="card-title">Landing Page</h5>
+                    <div className="mt-3">
+                      <a href="/cyber-dyne">
+                      <FontAwesomeIcon icon={faSquareGithub} className="github-logo" />
+
+                      </a>
+
+                      <a href="/cyber-dyne" className="btn btn-primary">
+                        Take me There!
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
+
         <section id="about-me">
           <div className="container-fluid" id="about-container">
-            <div className="about-me-h2-div">
+            <div className="about-h2-div">
               <h2 className="display-2" id="about-h2">
                 ABOUT ME
               </h2>
@@ -275,6 +217,7 @@ const App = () => {
           </div>
         </section>
       </main>
+
       <footer id="contact">
         <div className="container" id="footer-div">
           <h2 className="footer-h2">CONTACT</h2>
