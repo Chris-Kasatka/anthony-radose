@@ -20,7 +20,7 @@ const Nav = () => {
 
   return (
     <ul className="nav" id="navvy">
-      <div className="divvy divvy1">
+      <div className="divvy divvy1 ms-lg-5 justify-content-lg-start">
         <li className="nav-item">
           <a href="#top">
             <img src={eye} alt="EYE" className="eye" />
@@ -54,7 +54,7 @@ const Nav = () => {
             </a>
           </li>
         </div>
-        <div className="divvy divvy3">
+        <div className="divvy divvy3 me-lg-5 justify-content-lg-end">
           <li className="nav-item">
             <a
               className="nav-link nav-links nav-icons"
