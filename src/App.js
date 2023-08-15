@@ -43,9 +43,9 @@ const App = () => {
         <section className="projects" id="projects">
           <div className="container projects-container">
             <div className="projects-h2-div">
-            <h2 className="display-2" id="projects-h2">
-              PROJECTS
-            </h2>
+              <h2 className="display-2" id="projects-h2">
+                PROJECTS
+              </h2>
             </div>
             <div className="row">
               <div className="col-6 col-lg-4 mb-4">
@@ -58,12 +58,24 @@ const App = () => {
                   <div className="card-body">
                     <h5 className="card-title">CyberDyne</h5>
                     <div className="mt-3">
-                      <a href="/cyber-dyne">
-                      <FontAwesomeIcon icon={faSquareGithub} className="github-logo" />
+                      <a
+                        href="https://github.com/anthonyradose/cyber-dyne"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FontAwesomeIcon
+                          icon={faSquareGithub}
+                          className="github-logo"
+                        />
                       </a>
 
-                      <a href="/cyber-dyne" className="btn btn-primary">
-                        Take me There!
+                      <a
+                        href="/cyber-dyne"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="btn btn-primary"
+                      >
+                        Take me there!
                       </a>
                     </div>
                   </div>
@@ -79,13 +91,24 @@ const App = () => {
                   <div className="card-body">
                     <h5 className="card-title">Pokemon Pokedex</h5>
                     <div className="mt-3">
-                      <a href="/cyber-dyne">
-                      <FontAwesomeIcon icon={faSquareGithub} className="github-logo" />
-
+                      <a
+                        href="https://github.com/anthonyradose/pokemon-app"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FontAwesomeIcon
+                          icon={faSquareGithub}
+                          className="github-logo"
+                        />
                       </a>
 
-                      <a href="/cyber-dyne" className="btn btn-primary">
-                        Take me There!
+                      <a
+                        href="/pokemon-app"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="btn btn-primary"
+                      >
+                        Take me there!
                       </a>
                     </div>
                   </div>
@@ -101,13 +124,24 @@ const App = () => {
                   <div className="card-body">
                     <h5 className="card-title">Weather App</h5>
                     <div className="mt-3">
-                      <a href="/cyber-dyne">
-                      <FontAwesomeIcon icon={faSquareGithub} className="github-logo" />
-
+                      <a
+                        href="https://github.com/anthonyradose/weather-app"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FontAwesomeIcon
+                          icon={faSquareGithub}
+                          className="github-logo"
+                        />
                       </a>
 
-                      <a href="/cyber-dyne" className="btn btn-primary">
-                        Take me There!
+                      <a
+                        href="/weather-app"
+                        className="btn btn-primary"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Take me there!
                       </a>
                     </div>
                   </div>
@@ -123,13 +157,19 @@ const App = () => {
                   <div className="card-body">
                     <h5 className="card-title">Landing Page</h5>
                     <div className="mt-3">
-                      <a href="/cyber-dyne">
-                      <FontAwesomeIcon icon={faSquareGithub} className="github-logo" />
-
+                      <a
+                        href="https://github.com/anthonyradose/anthonyradose.github.io"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FontAwesomeIcon
+                          icon={faSquareGithub}
+                          className="github-logo"
+                        />
                       </a>
 
-                      <a href="/cyber-dyne" className="btn btn-primary">
-                        Take me There!
+                      <a href="#top" className="btn btn-primary">
+                        Take me there!
                       </a>
                     </div>
                   </div>
