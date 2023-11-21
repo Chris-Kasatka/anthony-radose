@@ -202,8 +202,8 @@ const App = () => {
             </div>
             <div className="tech-stack">
               <div className="tech-stack-containers">
-                <h3>What I know:</h3>
-                <div className="tech-stack-icons">
+                <h3>Skillset:</h3>
+                <div className="tech-stack-icons my-3">
                   <FontAwesomeIcon icon={faHtml5} />
                   <i className="bi bi-filetype-css"></i>
                   <FontAwesomeIcon icon={faBootstrap} />
@@ -215,9 +215,9 @@ const App = () => {
               </div>
               <div className="tech-stack-containers">
                 <h3>What I'm learning:</h3>
-                <div className="tech-stack-icons">
-                  <Icon icon="simple-icons:mongodb" />
-                  <i className="bi bi-filetype-tsx"></i>
+                <div className="tech-stack-icons my-3">
+                  <Icon icon="simple-icons:jest" />
+                  <Icon icon="simple-icons:jquery" />
                 </div>
               </div>
             </div>
